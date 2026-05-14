@@ -1,0 +1,136 @@
+:root {
+    --nav-bg: #213555;
+    --body-bg: #f0f2f5;
+    --primary-blue: #1e60aa;
+}
+
+body {
+    background-color: var(--body-bg);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar-siakad {
+    background-color: var(--nav-bg) !important;
+    padding: 0.5rem 1.5rem !important;
+    min-height: 60px;
+}
+
+.brand-logo-img {
+    height: 45px;
+    width: auto;
+}
+
+.nav-link-custom {
+    color: #bdc3c7 !important;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+    transition: 0.2s;
+}
+
+.nav-link-custom:hover, 
+.nav-link-custom.active, 
+.show > .nav-link-custom {
+    color: white !important;
+}
+
+.user-info {
+    border-left: 1px solid rgba(255,255,255,0.15);
+    padding-left: 15px;
+}
+
+.avatar-circle {
+    width: 35px;
+    height: 35px;
+    background: #e2e8f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #475569;
+    margin-left: 12px;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+.card-header-custom {
+    background: #f8f9fa;
+    border-bottom: 1px solid #eee;
+    padding: 10px 18px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.main-content { 
+    padding-top: 20px; 
+}
+
+.dropdown-menu {
+    background-color: var(--nav-bg);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 4px;
+    padding: 0.5rem 0;
+}
+
+.dropdown-item {
+    color: #bdc3c7 !important;
+    font-size: 0.85rem;
+    padding: 0.6rem 1.2rem;
+    transition: 0.2s;
+}
+
+.dropdown-item i {
+    color: #bdc3c7 !important;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white !important;
+}
+
+.dropdown-item:hover i {
+    color: white !important;
+}
+
+.dropdown-divider {
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+@media (min-width: 992px) {
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}   
+
+.custom-dropdown {
+    border-radius: 15px;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.custom-dropdown .dropdown-item {
+    border-radius: 8px;
+    transition: 0.2s;
+    font-size: 0.9rem;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #007bff;
+}
+
+.custom-dropdown {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
