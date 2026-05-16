@@ -28,7 +28,7 @@ INSERT INTO users (username, password, role) VALUES
 
 klik go
 
-UNTUK CEK SQL INJECTION
+CEK SQL INJECTION
 
 di bagian index.html
 
