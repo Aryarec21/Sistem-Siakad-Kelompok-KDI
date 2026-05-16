@@ -27,3 +27,14 @@ INSERT INTO users (username, password, role) VALUES
 ('241011129', MD5('241011129'), 'mahasiswa');
 
 klik go
+
+UNTUK CEK SQL INJECTION
+
+di bagian index.html
+
+ganti ini: <form action="login.php" method="POST">
+jadi : <form action="login_vulnerable.php" method="POST">
+
+dan download file login_vulnerable.php
+
+lalu test login pakai username: ' OR '1'='1  // password: (bebas)
