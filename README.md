@@ -32,8 +32,10 @@ UNTUK CEK SQL INJECTION
 
 di bagian index.html
 
-ganti ini: <form action="login.php" method="POST">
-jadi : <form action="login_vulnerable.php" method="POST">
+ganti ini: 
+<form action="login.php" method="POST">
+jadi : 
+<form action="login_vulnerable.php" method="POST">
 
 dan download file login_vulnerable.php
 
