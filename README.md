@@ -39,4 +39,6 @@ jadi :
 
 dan download file login_vulnerable.php
 
-lalu test login pakai username: ' OR '1'='1  // password: (bebas)
+lalu test login pakai
+username: ' OR '1'='1  // password: (bebas)
+atau bisa juga user: 241011130  password: (bebas)
